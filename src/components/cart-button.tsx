@@ -1,23 +1,20 @@
-"use client"
+'use client';
 
-import { styled } from "styled-components"
-import { CartIcon } from "./icons/cart-icon"
+import { styled } from 'styled-components';
+import { CartIcon } from './icons/cart-icon';
 
-interface CartButtonProps {
-
-}
+interface CartButtonProps {}
 
 const CartAnchor = styled.a`
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
-`
-
-export function CartButton(props : CartButtonProps){
-    return(
-        <CartAnchor>
-            <CartIcon/>
-        </CartAnchor>
-    )
+export function CartButton(props: CartButtonProps) {
+  return (
+    <CartAnchor>
+      <CartIcon />
+    </CartAnchor>
+  );
 }
