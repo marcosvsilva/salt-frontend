@@ -1,10 +1,10 @@
 'use client';
 
+import { Saira_Stencil_One } from 'next/font/google';
 import { styled } from 'styled-components';
 
-import { Saira_Stencil_One } from 'next/font/google';
-import { PrimaryInputWSearch } from './primary-input';
 import { CartButton } from './cart-button';
+import { PrimaryInputWSearch } from './primary-input';
 
 const sairaStencil = Saira_Stencil_One({
   weight: ['400'],

@@ -1,6 +1,7 @@
 'use client';
 
 import { styled } from 'styled-components';
+
 import { CartIcon } from './icons/cart-icon';
 
 interface CartButtonProps {}

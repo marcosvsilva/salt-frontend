@@ -1,8 +1,9 @@
 'use client';
 
-import { styled } from 'styled-components';
-import { SearchIcon } from './icons/search-icon';
 import { InputHTMLAttributes } from 'react';
+import { styled } from 'styled-components';
+
+import { SearchIcon } from './icons/search-icon';
 
 export const PrimaryInput = styled.input`
   border: none;
