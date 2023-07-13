@@ -3,13 +3,15 @@
 import { Saira_Stencil_One } from 'next/font/google';
 import { styled } from 'styled-components';
 
-import { CartButton } from './cart-button';
+import { CartControl } from './cart-control';
 import { PrimaryInputWSearch } from './primary-input';
 
 const sairaStencil = Saira_Stencil_One({
   weight: ['400'],
   subsets: ['latin'],
 });
+
+interface headerProps {}
 
 const TagHeader = styled.header`
   display: flex;
@@ -38,7 +40,7 @@ export function Header() {
       <Logo className={sairaStencil.className}>Salt</Logo>
       <div>
         <PrimaryInputWSearch placeholder="Procurando por algo específico?" />
-        <CartButton />
+        <CartControl />
       </div>
     </TagHeader>
   );
