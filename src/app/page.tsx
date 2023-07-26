@@ -1,7 +1,8 @@
-import { ProductsList } from '@/components/products-list';
+import styled from 'styled-components';
 
+import { DefaultPageLayout } from '../components/default-page-layout';
 import { FilterBar } from '../components/filter-bar';
-import styles from './page.module.css';
+import { ProductsList } from '../components/products-list';
 
 const PageWrapper = styled.main`
   display: flex;
@@ -11,11 +12,11 @@ const PageWrapper = styled.main`
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <DefaultPageLayout>
       <PageWrapper>
         <FilterBar />
         <ProductsList />
       </PageWrapper>
-    </main>
+    </DefaultPageLayout>
   );
 }
