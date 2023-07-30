@@ -2,12 +2,12 @@
 
 import { styled } from 'styled-components';
 
-import { BackBtn } from '../components/back-button';
-import { DefaultPageLayout } from '../components/default-page-layout';
-import { ShopBagIcon } from '../components/icons/shopping-bag-icon';
-import { useProduct } from '../hooks/useProduct';
-import { Product } from '../types/product';
-import { formatPrice } from '../utils/format-price';
+import { BackBtn } from '../../components/back-button';
+import { DefaultPageLayout } from '../../components/default-page-layout';
+import { ShopBagIcon } from '../../components/icons/shopping-bag-icon';
+import { useProduct } from '../../hooks/useProduct';
+import { Product } from '../../types/product';
+import { formatPrice } from '../../utils/format-price';
 
 interface ProductProps {}
 
