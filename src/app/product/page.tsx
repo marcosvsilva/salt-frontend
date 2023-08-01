@@ -9,7 +9,9 @@ import { useProduct } from '../../hooks/useProduct';
 import { Product } from '../../types/product';
 import { formatPrice } from '../../utils/format-price';
 
-interface ProductProps {}
+interface ProductProps {
+  // TO-DO
+}
 
 const Container = styled.div`
   display: flex;

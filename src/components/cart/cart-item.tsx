@@ -1,9 +1,9 @@
 import { ChangeEvent } from 'react';
 import { styled } from 'styled-components';
 
+import { ProductInCart } from '../../types/product';
+import { formatPrice } from '../../utils/format-price';
 import { DeleteIcon } from '../icons/delete-icon';
-import { ProductInCart } from '../types/product';
-import { formatPrice } from '../utils/format-price';
 
 interface CartItemProps {
   product: ProductInCart;

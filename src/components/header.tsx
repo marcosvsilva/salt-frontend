@@ -11,7 +11,9 @@ const sairaStencil = Saira_Stencil_One({
   subsets: ['latin'],
 });
 
-interface headerProps {}
+interface headerProps {
+  // TO-DO
+}
 
 const TagHeader = styled.header`
   display: flex;
