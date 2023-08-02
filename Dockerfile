@@ -9,4 +9,4 @@ COPY . .
 
 RUN npm run build
 
-ENTRYPOINT ["node", "./app.js"]
+ENTRYPOINT ["node", "run", "start"]
