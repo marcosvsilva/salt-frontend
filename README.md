@@ -22,7 +22,11 @@ This project is written in Node and TypeScript and uses those libraries and fram
 To run salt-front-end, follow these steps:
 
 1. Get this repository.
-   
+
+```bash
+git clone https://github.com/marcosvsilva/salt-frontend.git
+```
+
 3. Install dependencies:
 
 ```bash
